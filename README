@@ -1,0 +1,16 @@
+Scratch files for cpp
+---------------------
+Place for quickly testing cpp code
+
+Requirements
+------------
+- conan
+
+Configuration
+-------------
+Install dependencies commonly used for scratch files
+`conan install .`
+
+Create compile_flags.txt file for clangd see https://clangd.llvm.org/installation#compile_flagstxt
+`cp conanbuildinfo.args compile_flags.txt`
+`sed -i 's/ /\n/g' compile_flags.txt`
