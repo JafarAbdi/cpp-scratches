@@ -1,0 +1,8 @@
+name: conan
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11.0
+  - conan=1.59.0
